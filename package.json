@@ -1,0 +1,37 @@
+{
+    "name": "monkeycode-microsite-template",
+    "author": "Andreas Hucks",
+    "license": "MIT",
+    "version": "0.1.0",
+    "main": "gulpfile.js",
+    "devDependencies": {
+        "bootstrap": "~3.1",
+        "browserify": "~3.28",
+        "gulp-browserify": "~0.4",
+        "gulp": "~3.5",
+        "gulp-clean": "~0.2",
+        "gulp-concat": "~2.1",
+        "gulp-flatten": "~0.0",
+        "gulp-less": "~1.2",
+        "gulp-notify": "~0.4",
+        "gulp-ngmin": "~0.1",
+        "gulp-rename": "~1.0",
+        "gulp-uglify": "~0.2",
+        "less": "~1.6",
+        "napa": "~0.3",
+        "uglifyjs": "~2.3",
+        "gulp-util": "~2.2.14",
+        "gulp-jshint": "~1.4.2"
+    },
+    "scripts": {
+        "install": "napa"
+    },
+    "napa": {
+        "bootstrap": "twbs/bootstrap",
+        "angular": "angular/bower-angular",
+        "angular-route": "angular/bower-angular-route",
+        "angular-resource": "angular/bower-angular-resource",
+        "angular-animate": "angular/bower-angular-animate",
+        "jquery": "http://code.jquery.com/jquery-1.11.0.js"
+    }
+}
