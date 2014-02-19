@@ -1,0 +1,12 @@
+default:
+    context:
+        class:  MonkeyCode\Microsite\Behat\FeatureContext
+        parameters:
+            http_port: 8888
+            driver_port: 8643
+    extensions:
+        Behat\MinkExtension\Extension:
+            base_url: 'http://localhost:8888/index_test.php'
+            default_session: selenium2
+            selenium2:
+                wd_host: "http://127.0.0.1:8643/wd/hub"
