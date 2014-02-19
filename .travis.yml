@@ -6,8 +6,8 @@ php:
 before_script:
     - composer self-update
     - composer install --dev --prefer-source
-    - php -S 0.0.0.0:8888 -t web &
-    - phantomjs --webdriver=8643 &
+    - php -S 0.0.0.0:8888 -t web &> /dev/null &
+    - phantomjs --webdriver=8643 &> /dev/null &
     - sleep 2
 
 script:
