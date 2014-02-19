@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "777486f7dd1001164f74435000134777",
+    "hash": "d87da1d2751e966393a50dc421d22eaf",
     "packages": [
         {
             "name": "monkeycode/staticpageprovider",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/meandmymonkey/silex-staticprovider.git",
-                "reference": "bf69671dc0f97a95bb8805215d351e9a18cbb3ef"
+                "reference": "218160452b4509aeba076184382481048687903f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/meandmymonkey/silex-staticprovider/zipball/bf69671dc0f97a95bb8805215d351e9a18cbb3ef",
-                "reference": "bf69671dc0f97a95bb8805215d351e9a18cbb3ef",
+                "url": "https://api.github.com/repos/meandmymonkey/silex-staticprovider/zipball/218160452b4509aeba076184382481048687903f",
+                "reference": "218160452b4509aeba076184382481048687903f",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                     "homepage": "http://github.com/meandmymonkey"
                 }
             ],
-            "time": "2014-01-28 23:40:09"
+            "time": "2014-02-16 20:36:32"
         },
         {
             "name": "pimple/pimple",
