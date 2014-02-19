@@ -23,6 +23,7 @@
     "config": {
         "bin-dir": "bin"
     },
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4" : {
             "MonkeyCode\\" : "src/",
