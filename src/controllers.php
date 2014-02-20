@@ -3,6 +3,7 @@
 use MonkeyCode\Silex\Provider\StaticPageControllerProvider;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
+// shortcut to define static pages
 $app->mount(
     '/',
     new StaticPageControllerProvider(
@@ -12,6 +13,7 @@ $app->mount(
     )
 );
 
+// other controllers
 $app->get(
     '/api/greetings',
     function() use ($app) {
