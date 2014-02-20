@@ -8,7 +8,8 @@ $app->mount(
     '/',
     new StaticPageControllerProvider(
         [
-            'home' => ['path' => '/', 'template' => 'index.html.twig']
+            'home'  => ['path' => '/', 'template' => 'index.html.twig'],
+            'page2' => ['path' => '/another/page', 'template' => 'page2.html.twig']
         ]
     )
 );
