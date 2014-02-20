@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "d87da1d2751e966393a50dc421d22eaf",
+    "hash": "3d0289869836093872c68ca9f502f4ac",
     "packages": [
         {
             "name": "monkeycode/staticpageprovider",
-            "version": "dev-master",
+            "version": "v1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/meandmymonkey/silex-staticprovider.git",
-                "reference": "218160452b4509aeba076184382481048687903f"
+                "reference": "89a13153e22c67544275a2bd27df2cfc327af98f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/meandmymonkey/silex-staticprovider/zipball/218160452b4509aeba076184382481048687903f",
-                "reference": "218160452b4509aeba076184382481048687903f",
+                "url": "https://api.github.com/repos/meandmymonkey/silex-staticprovider/zipball/89a13153e22c67544275a2bd27df2cfc327af98f",
+                "reference": "89a13153e22c67544275a2bd27df2cfc327af98f",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,12 @@
                     "homepage": "http://github.com/meandmymonkey"
                 }
             ],
-            "time": "2014-02-16 20:36:32"
+            "keywords": [
+                "controllerprovider",
+                "silex",
+                "twig"
+            ],
+            "time": "2014-02-20 16:18:41"
         },
         {
             "name": "pimple/pimple",
@@ -2077,9 +2082,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "monkeycode/staticpageprovider": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],
