@@ -1,7 +1,7 @@
 Microsite Template for Silex
 ============================
 
-[![Build Status](https://travis-ci.org/meandmymonkey/silex-template.png?branch=master)](https://travis-ci.org/meandmymonkey/silex-template)
+[![Build Status](https://travis-ci.org/meandmymonkey/silex-template.png?branch=master)](https://travis-ci.org/meandmymonkey/silex-template)Less
 
 A bootstrapped Silex/Javascript setup.
 Targeted at small sites and for use as a JS playground.
@@ -65,7 +65,7 @@ Building
 The provided basic ```gulpfile.js``` lets you run the following tasks:
 
 - ```gulp```: Default task - watch both Less and Javascript sources for changes and rebuild assets on the fly for dev use.
-- ```gulp prod```: Compile & minify LESS and Javascript for production use.
+- ```gulp prod```: Compile & minify Less and Javascript for production use.
 
 Some additional tasks are available, but will generally be called implicitly as dependencies
 of the two previous tasks:
