@@ -1,7 +1,7 @@
 Microsite Template for Silex
 ============================
 
-[![Build Status](https://travis-ci.org/meandmymonkey/silex-template.png?branch=master)](https://travis-ci.org/meandmymonkey/silex-template)Less
+[![Build Status](https://travis-ci.org/meandmymonkey/silex-template.png?branch=master)](https://travis-ci.org/meandmymonkey/silex-template)
 
 A bootstrapped Silex/Javascript setup.
 Targeted at small sites and for use as a JS playground.
