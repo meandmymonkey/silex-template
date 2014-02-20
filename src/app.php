@@ -3,8 +3,10 @@
 use Silex\Provider\TwigServiceProvider;
 use Silex\Provider\UrlGeneratorServiceProvider;
 
+// add UrlGeneratorServiceProvider so we can generate routes by name
 $app->register(new UrlGeneratorServiceProvider());
 
+// add Twig support
 $app->register(
     new TwigServiceProvider(),
     array(
@@ -15,3 +17,7 @@ $app->register(
         )
     )
 );
+
+// add your own service providers here
+
+// ...
