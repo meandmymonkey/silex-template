@@ -4,6 +4,6 @@
     <div data-ng-controller="HelloCtrl" class="col-md-6 animate-show-hide" data-ng-hide="!loaded">
         <h1>silex microsite template</h1>
         <p><span class="hello">{{ '{{ data.greeting }}' }}</span></p>
-        <p><a href="http://github.com/meandmymonkey/silex-template">github.com/meandmymonkey/silex-template</a></p>
+        <p><a href="{{ path('page2') }}">another page</a></p>
     </div>
 {% endblock %}
