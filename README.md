@@ -25,14 +25,12 @@ The main components are:
 Requirements
 ------------
 
-**Note:** Since the setup uses both Less and browserify, frontend libraries are
- managed using npm and napa instead of Bower to make for a simpler setup.
-
 To install, build, and test the project, you will need the following tools:
 
 - Composer
 - Node.js
 - npm
+- Bower
 - A global install of gulp
 - PhantomJS (optional)
 
@@ -43,6 +41,7 @@ Installation
     $ composer create-project monkeycode/microsite-template myProject
     $ cd myProject
     $ npm install
+    $ bower install
 
 
 Where to find what

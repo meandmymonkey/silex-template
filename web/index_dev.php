@@ -11,7 +11,7 @@ if (isset($_SERVER['HTTP_CLIENT_IP'])
     exit('You are not allowed to access this file.');
 }
 
-require_once __DIR__.'/../vendor/autoload.php';
+require_once __DIR__.'/../vendor/php/autoload.php';
 
 Debug::enable();
 
