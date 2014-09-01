@@ -11,11 +11,11 @@ var gulp = require('gulp'),
 
 var shimConfig = {
     angular: {
-        path: './node_modules/angular/angular.js',
+        path: './vendor/js/angular/angular.js',
         exports: 'angular'
     },
     'angular-animate': {
-        path: './node_modules/angular-animate/angular-animate.js',
+        path: './vendor/js/angular-animate/angular-animate.js',
         exports: 'ngAnimate',
         depends: {
             angular: 'angular',
@@ -23,28 +23,28 @@ var shimConfig = {
         }
     },
     'angular-resource': {
-        path: './node_modules/angular-resource/angular-resource.js',
+        path: './vendor/js/angular-resource/angular-resource.js',
         exports: 'ngResource',
         depends: {
             angular: 'angular'
         }
     },
     'angular-route': {
-        path: './node_modules/angular-route/angular-route.js',
+        path: './vendor/js/angular-route/angular-route.js',
         exports: 'ngRoute',
         depends: {
             angular: 'angular'
         }
     },
     'bootstrap': {
-        path: './node_modules/bootstrap/dist/js/bootstrap.js',
+        path: './vendor/js/bootstrap/dist/js/bootstrap.js',
         exports: 'bootstrap',
         depends: {
             jQuery: 'jQuery'
         }
     },
     'jQuery': {
-        path: './node_modules/jquery/jquery-1.11.0.js',
+        path: './vendor/js/jquery/dist/jquery.js',
         exports: '$'
     }
 };
